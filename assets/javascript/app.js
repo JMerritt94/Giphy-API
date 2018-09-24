@@ -21,7 +21,7 @@ for (var i = 0; i < animalArray.length; i++) {
     var animal = $(this).attr("data-animal");
     
 
-    var queryURL = "https://api.giphy.com/v1/gifs/search?q=" +
+    var queryURL = "http://api.giphy.com/v1/gifs/search?q=" +
         animal + "&api_key=gS8Kpc3UURIUDXRISwsCqXzC5kx3iu1c";
 
     // Performing an AJAX request with the queryURL
